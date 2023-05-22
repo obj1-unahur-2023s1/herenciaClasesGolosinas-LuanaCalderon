@@ -1,10 +1,12 @@
 import golosinas.*
 
 object mariano {
-	var golosinas = []
+	const golosinas = []
 	 
 	method comprar(_golosina) { golosinas.add(_golosina) }
-	
+	method baniar(unaGolosina){
+		
+	}
 	method desechar (_golosina) { golosinas.remove(_golosina) }
 	
 	method golosinas() { return golosinas }
